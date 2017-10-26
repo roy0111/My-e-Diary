@@ -1,9 +1,6 @@
 # My-e-Diary
 
-# Simple Online Diagnostic Center
 
-Simple Online Diagnostice Center is a project of CSE411(Software Engineering). We did Requirment Elicitation Questionnaire, Requirement Engineering and Design Diagram like Sequence Diagram, Activity Diagram, Class Diagram etc.
-Based on the analysis and the design we built this simple online diagnostic center.
 
 #### What the project should do
 * User can register
@@ -26,7 +23,7 @@ Based on the analysis and the design we built this simple online diagnostic cent
 
 Home Page
 
-![](screenshot/home.png)
+![Home Page](screenshot/home.png)
 
 User Registration
 
