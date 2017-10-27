@@ -24,13 +24,7 @@
 Home Page
 
 
-
 User Registration
-
-
-
-Patient Login
-
 
 
 User Profile
@@ -39,16 +33,10 @@ User Profile
 User Diary
 
 
-
-
-
 User Locker
 
 
-
-
 Event Schedules
-
 
 
 Contacts List
