@@ -1,7 +1,11 @@
 <?php 
-   
+     include '../includes/header.php';
+
  session_start();
 
+?>
+
+<?php 
        include '../database_access/check_user_pdo.php';
        
        $user_mail_id= "'".$_SESSION["user_mail_id"]."'";
@@ -24,32 +28,6 @@
        $address =$userInfoResult['0']['address']; 
 
         $_SESSION["user_product_id"] = $productId;   //set seesion product id
-?>
-
-<?php
-
-    $user_product_id = test_input_trimer($productId);
-
-     $fetchedUserPic= fetchImageOfUser($user_product_id);
-
-
-    if(is_null($fetchedUserPic['user_img'])){
-      $_SESSION['user_img'] = imagecreatefrompng("myProfileEdit/imageFolder/userImg.png");
-     
-    }
-    else{
-             $_SESSION['user_img']=$fetchedUserPic['user_img'];
-
-    }
-?>
-
-
-
-
-
-
-<?php
-  include '../includes/header.php';
 ?>
 
 

@@ -2,6 +2,23 @@
 <?php  
   //include '../../database_access/check_user_pdo.php';
    session_start();
+$_SESSION['user_img']=null;
+    $user_product_id = test_input_trimer($_SESSION["user_product_id"]);
+
+     $fetchedUserPic= fetchImageOfUser($user_product_id);
+
+
+    if(is_null($fetchedUserPic['user_img'])){
+      $_SESSION['user_img'] = imagecreatefrompng("myProfileEdit/imageFolder/userImg.png");
+     
+    }
+    else{
+             $_SESSION['user_img']=$fetchedUserPic['user_img'];
+
+    }
+
+
+
 ?>
 <div   style="padding-top:100px; " >
         <div align="center" class ="well" style="border-color: red;">

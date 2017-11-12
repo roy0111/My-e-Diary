@@ -87,7 +87,12 @@ $(document).ready(function(){
 
 
 
+<style type="text/css">
+	body{
+		 background-image: url( 'eventShow/event.jpg');
+	}
 
+</style>
 
 
 
