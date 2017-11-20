@@ -88,7 +88,10 @@ $(document).ready(function(){
 
 <style type="text/css">
 	body{
-		 background-image: url( 'contactEdit/back.jpg');
+		 background-image: url( 'contactEdit/back.png');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
 	}
 
 </style>

@@ -246,7 +246,10 @@
 
 
 
-
+ <?php
+  $today = date("F j, Y, g:i a");                 // March 10, 2001, 5:16 pm
+  echo  $today;
+?>
 
 
 </body>

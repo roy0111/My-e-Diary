@@ -5,6 +5,20 @@
 
 ?>
 
+
+<style type="text/css">
+  body{
+     background-image: url( 'lastPassEdit/back.png');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+  }
+
+</style>
+
+
+
+
 <?php
     function popupMsg($messageType,$messageText){
 

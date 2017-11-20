@@ -89,7 +89,10 @@ $(document).ready(function(){
 
 <style type="text/css">
 	body{
-		 background-image: url( 'eventShow/event.jpg');
+		 background-image: url( 'diaryPost/back.png');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
 	}
 
 </style>
@@ -212,3 +215,4 @@ $(document).ready(function(){
 
    include 'diaryPost/diaryInnerPage.php';
  ?>
+

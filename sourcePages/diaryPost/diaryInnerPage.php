@@ -105,11 +105,11 @@ for ($i=0; $i < count($fetchResult); $i++) {
 
 						<table class="table">
 						   <tr >
-							     <h3 style="color: black; text-align: left">'.$fetchResult[$i]["heading"].' </h3>
+							     <p style="color: black; text-align: left">'.$fetchResult[$i]["postDate"]."  ".$fetchResult[$i]["postTime"].' </p>
 							      
 						    </tr>
 							   <tr >
-							     <p style="color: black;">'.$fetchResult[$i]["description"].' </p>
+							     <p style="color: black;">'.$fetchResult[$i]["heading"].' </p>
 						    </tr>
 						  </table>
 			  </button>
