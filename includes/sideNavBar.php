@@ -64,9 +64,7 @@
 
   <a href="../sourcePages/contract.php" class="w3-bar-item w3-button"><i class="fa  fa-address-book"> Contacts</i></a>
 
-  <a href="../sourcePages/gallery.php" class="w3-bar-item w3-button"><i class="fa  fa-camera-retro "> Gallery</i></a>  
-
-   <a href="../sourcePages/dashBoard.php" class="w3-bar-item w3-button"><i class="fa fa-line-chart"> DashBoard</i></a> 
+  
  
   <a href="../logOut.php" class="w3-bar-item w3-button"><i style="color: red;" class="fa fa-sign-out "> Log Out</i></a> 
 
@@ -82,7 +80,9 @@
       
 
 
-   
+
+
+
 </body>
 </html>
 
