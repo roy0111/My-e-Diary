@@ -9,7 +9,7 @@
         			
             $servername = "localhost";
             $username = "root";
-            $password = "birat123";
+            $password = "root";
             $dbname = "myDiaryDB";
            $dBconnection = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
                  
