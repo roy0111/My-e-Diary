@@ -19,7 +19,7 @@
 * Ampps
 
 
-### Features
+### Screenshots
 
 Home Page
 
